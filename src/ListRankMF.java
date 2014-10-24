@@ -306,12 +306,10 @@ public class ListRankMF {
 	public static void main(String[] args) throws Exception {
 		Map<String,Map<String,Double>> r = readData("sample.txt"); 
 		ListRankMF lrmf = new ListRankMF(r);
-		System.out.println("\n\t\tAHD101501WCN1-0912517395: "+ lrmf.finalPrediction("AHD101501WCN1","0912517395"));
-		System.out.println("\n\t\tAHD101501WCN1-0912517395: "+ lrmf.finalPrediction("AHD101501WCN1","0970378424"));
-		//System.out.println("\t\tU1-2: "+ lrmf.finalPrediction("U1","2"));
-		//System.out.println("\t\tU1-3: "+ lrmf.finalPrediction("U1","3"));
-		//System.out.println("\t\tU1-4: "+ lrmf.finalPrediction("U1","4"));
-		//System.out.println("\t\tU1-5: "+ lrmf.finalPrediction("U1","5"));
+		System.out.println("\t\tU1-2: "+ lrmf.finalPrediction("U1","2"));
+		System.out.println("\t\tU1-3: "+ lrmf.finalPrediction("U1","3"));
+		System.out.println("\t\tU1-4: "+ lrmf.finalPrediction("U1","4"));
+		System.out.println("\t\tU1-5: "+ lrmf.finalPrediction("U1","5"));
 	}
 
 }
