@@ -26,7 +26,7 @@ System.out.println("User: U01 \t Item:I23: "+ lrmf.finalPrediction("U01","I23"))
 to get a predicted score of item I23 for user U01. To get a ranked list for a user, we run the finalPrediction method for each item in the dataset for that user. Sorting the list in descending order in terms of the score gives us the ranked list. 
 
 ## Note
-The code has'nt been tested thoughrly. If you find any mistakes, please do let me know.
+The code hasn't been tested thoughrly. If you find any mistakes, please do let me know.
 If you use this code in any projects/research, I would like to learn more about how you used it.
 
 ## License 
